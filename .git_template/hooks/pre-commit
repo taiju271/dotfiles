@@ -1,0 +1,14 @@
+#!/bin/bash
+
+USERNAME="taiju271"
+EMAIL="taiju271@users.noreply.github.com"
+
+if [[ "`git config user.name`" != $USERNAME ]]; then
+	echo "fatal: user.name is not set $USERNAME"
+	exit 1
+fi
+
+if [[ "`git config user.email`" != $EMAIL ]]; then
+	echo "fatal: user.email is not $EMAIL"
+	exit 1
+fi
