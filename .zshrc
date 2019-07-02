@@ -122,7 +122,7 @@ path=($HOME/.cargo/bin(N-/) $path)
 path=($HOME/.composer/vendor/bin(N-/) $path)
 path=($HOME/Go/bin(N-/) $path)
 
-export GOPATH=$HOME/Go
+export GOPATH=$HOME/.go
 export EDITOR=vim
 
 bindkey -e
@@ -192,3 +192,7 @@ if [ -f '/home/usr10048126/.local/google-cloud-sdk/path.zsh.inc' ]; then . '/hom
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/usr10048126/.local/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/usr10048126/.local/google-cloud-sdk/completion.zsh.inc'; fi
+
+# >>> conda initialize >>>
+. "/home/usr10048126/.miniconda3/etc/profile.d/conda.sh"
+# <<< conda initialize <<<
