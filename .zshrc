@@ -194,5 +194,5 @@ if [ -f '/home/usr10048126/.local/google-cloud-sdk/path.zsh.inc' ]; then . '/hom
 if [ -f '/home/usr10048126/.local/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/usr10048126/.local/google-cloud-sdk/completion.zsh.inc'; fi
 
 # >>> conda initialize >>>
-. "/home/usr10048126/.miniconda3/etc/profile.d/conda.sh"
+. "$HOME/.miniconda3/etc/profile.d/conda.sh"
 # <<< conda initialize <<<
