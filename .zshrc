@@ -86,12 +86,12 @@ zplug "zplug/zplug"
 
 # プラグイン
 zplug "$HOME/.zsh", from:local
+zplug "esc/conda-zsh-completion"
 zplug "lib/completion", from:oh-my-zsh
 zplug "mollifier/cd-gitroot"
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
-zplug "greymd/cureutils", use:cureutils.plugin.zsh
 
 # コマンド
 zplug "monochromegane/the_platinum_searcher", as:command, from:gh-r, rename-to:pt
