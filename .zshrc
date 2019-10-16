@@ -98,7 +98,6 @@ zplug "monochromegane/the_platinum_searcher", as:command, from:gh-r, rename-to:p
 zplug "motemen/ghq",                          as:command, from:gh-r, rename-to:ghq
 zplug "peco/peco",                            as:command, from:gh-r, rename-to:peco
 zplug "stedolan/jq",                          as:command, from:gh-r, rename-to:jq
-zplug "direnv/direnv",                        as:command, rename-to:direnv, use:direnv, hook-build:make
 
 # テーマ
 zplug "mafredri/zsh-async"
