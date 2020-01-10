@@ -57,16 +57,17 @@ tmux_automatically_attach_session
 ######################################################################
 # anyenv
 ######################################################################
+path=($HOME/.anyenv/bin(N-/) $path)
+
 if [ ! -f ~/.anyenv/bin/anyenv ]; then
 	rm -rf ~/.anyenv
 	git clone https://github.com/riywo/anyenv.git ~/.anyenv
+	anyenv install --init
 fi
 if [ ! -d ~/.anyenv/plugins/anyenv-update ]; then
 	rm -rf ~/.anyenv/plugins/anyenv-update
 	git clone https://github.com/znz/anyenv-update.git ~/.anyenv/plugins/anyenv-update
 fi
-
-path=($HOME/.anyenv/bin(N-/) $path)
 
 if (( $+commands[anyenv] )); then
 	eval "$(anyenv init -)"
@@ -193,5 +194,5 @@ if [ -f '/home/usr10048126/.local/google-cloud-sdk/path.zsh.inc' ]; then . '/hom
 if [ -f '/home/usr10048126/.local/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/usr10048126/.local/google-cloud-sdk/completion.zsh.inc'; fi
 
 # >>> conda initialize >>>
-. "$HOME/.miniconda3/etc/profile.d/conda.sh"
+. "$HOME/.miniconda/etc/profile.d/conda.sh"
 # <<< conda initialize <<<
