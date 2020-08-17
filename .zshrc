@@ -96,7 +96,7 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
 # コマンド
 zplug "monochromegane/the_platinum_searcher", as:command, from:gh-r, rename-to:pt
-zplug "motemen/ghq",                          as:command, from:gh-r, rename-to:ghq
+zplug "x-motemen/ghq",                        as:command, from:gh-r, rename-to:ghq
 zplug "peco/peco",                            as:command, from:gh-r, rename-to:peco
 zplug "stedolan/jq",                          as:command, from:gh-r, rename-to:jq
 
