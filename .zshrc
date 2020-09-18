@@ -118,9 +118,7 @@ zplug load --verbose
 ######################################################################
 # environment
 ######################################################################
-path=($HOME/.cargo/bin(N-/) $path)
-path=($HOME/.composer/vendor/bin(N-/) $path)
-path=($HOME/Go/bin(N-/) $path)
+path=($HOME/.go/bin(N-/) $path)
 
 export GOPATH=$HOME/.go
 export EDITOR=vim
