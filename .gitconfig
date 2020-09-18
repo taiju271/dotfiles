@@ -4,7 +4,6 @@
 	default = current
 [ghq]
 	root = ~/Code
-	root = ~/Go/src
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
@@ -12,6 +11,3 @@
 	smudge = git-lfs smudge -- %f
 [core]
 	editor = vim
-[user]
-	name = taiju271
-	email = taiju271@users.noreply.github.com
