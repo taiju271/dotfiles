@@ -1,13 +1,4 @@
-[init]
-	templatedir = ~/.git_template
 [push]
 	default = current
 [ghq]
 	root = ~/Code
-[filter "lfs"]
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-[core]
-	editor = vim

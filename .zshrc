@@ -118,10 +118,7 @@ zplug load --verbose
 ######################################################################
 # environment
 ######################################################################
-path=($HOME/.go/bin(N-/) $path)
-
-export GOPATH=$HOME/.go
-export EDITOR=vim
+export EDITOR=nvim
 
 bindkey -e
 
@@ -177,7 +174,6 @@ setopt inc_append_history
 # other
 ######################################################################
 if (( $+commands[direnv] )); then eval "$(direnv hook zsh)"; fi
-if (( $+commands[thefuck] )); then eval "$(thefuck --alias)"; fi
 
 ######################################################################
 # key bind
